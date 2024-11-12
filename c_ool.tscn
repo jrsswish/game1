@@ -1,0 +1,59 @@
+[gd_scene load_steps=9 format=3 uid="uid://c060xodh0s5th"]
+
+[ext_resource type="Script" path="res://c_ool.gd" id="1_7xohc"]
+[ext_resource type="Texture2D" uid="uid://kplprwnkcikp" path="res://sprites/ferrari.png" id="2_y4yya"]
+[ext_resource type="Texture2D" uid="uid://dp00twlt0gjub" path="res://sprites/light.png" id="3_11ev2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u8ncn"]
+atlas = ExtResource("2_y4yya")
+region = Rect2(0, 0, 16, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owebb"]
+atlas = ExtResource("2_y4yya")
+region = Rect2(16, 0, 16, 22)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ewjax"]
+atlas = ExtResource("2_y4yya")
+region = Rect2(32, 0, 16, 22)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mwd2c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u8ncn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_owebb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ewjax")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 2.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8g10n"]
+size = Vector2(8, 14)
+
+[node name="cOOL" type="CharacterBody2D"]
+script = ExtResource("1_7xohc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -1)
+sprite_frames = SubResource("SpriteFrames_mwd2c")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.626524
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_8g10n")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+energy = 0.7
+range_z_min = -10
+range_z_max = 10
+shadow_enabled = true
+texture = ExtResource("3_11ev2")
+texture_scale = 0.3
