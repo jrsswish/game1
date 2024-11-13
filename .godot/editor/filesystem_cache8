@@ -1,5 +1,5 @@
 cffcf7cc5eb03ca20a5c49cce30ef619
-::res://::1731476405
+::res://::1731476862
 camera_2d.tscn::PackedScene::8556726818287351233::1731476312::0::1::::<><>::
 coin.tscn::PackedScene::4270781442832148236::1731382583::0::1::::<><>::uid://cjrgj0s67fxda::::res://sprites/coin.png
 c_ool.gd::GDScript::-1::1731449668::0::1::::<>CharacterBody2D<>::
@@ -18,7 +18,7 @@ slime_1.gd::GDScript::-1::1731446693::0::1::::<>Node2D<>::
 slime_1.tscn::PackedScene::3188630416604585006::1731372849::0::1::::<><>::res://slime_1.gd<>uid://ca76c1ps0wtdc::::res://sprites/slime_green.png<>uid://he83gmili867::::res://killzone.tscn
 tile_map.gd::GDScript::-1::1731446693::0::1::::<>TileMap<>::
 ::res://addons/::1731446686
-::res://addons/nklbdev.aseprite_importers/::1731446691
+::res://addons/nklbdev.aseprite_importers/::1731476406
 aseprite_image_format_loader_extension.gd::GDScript::-1::1731370557::0::1::::<>ImageFormatLoaderExtension<>::
 common.gd::GDScript::-1::1731370557::0::1::::<>Object<>::
 editor_plugin.gd::GDScript::-1::1731370557::0::1::::<>EditorPlugin<>::
@@ -33,12 +33,12 @@ sprite_2d.gd::GDScript::-1::1731370557::0::1::::<><>::
 sprite_3d.gd::GDScript::-1::1731370557::0::1::::<><>::
 sprite_frames.gd::GDScript::-1::1731370557::0::1::::<><>::
 texture_rect.gd::GDScript::-1::1731370557::0::1::::<><>::
-::res://backgroudn/::1731459909
+::res://backgroudn/::1731476406
 background2.png::CompressedTexture2D::2805954093102119628::1731459905::1731476406::1::::<><>::
 background3.png::CompressedTexture2D::500809528501212614::1731459908::1731476406::1::::<><>::
 background4.png::CompressedTexture2D::6334410212559132078::1731459909::1731476406::1::::<><>::
 background.png::CompressedTexture2D::1870385084985146814::1731459894::1731476406::1::::<><>::
-::res://sprites/::1731446691
+::res://sprites/::1731476407
 coin.png::CompressedTexture2D::5440017098390969802::1731289634::1731476406::1::::<><>::
 ferrari.png::CompressedTexture2D::733549704006986707::1731375915::1731476406::1::::<><>::
 fruit.png::CompressedTexture2D::1018884224098610170::1731289634::1731476406::1::::<><>::
