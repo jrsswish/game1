@@ -1,3 +1,8 @@
+TextureRect
+CanvasLayer
+Sprite2D
+ParallaxLayer
+ParallaxBackground
 TileMapLayer
 TileMap
 LightOccluder2D
@@ -7,8 +12,3 @@ Node2D
 DirectionalLight2D
 CanvasGroup
 Node
-CollisionShape2D
-AnimatedSprite2D
-CharacterBody2D
-RayCast2D
-AnimationPlayer

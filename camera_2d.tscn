@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dt57bm4sc4ycv"]
+
+[node name="Camera2D" type="Camera2D"]
+position = Vector2(30.489, 9.71963)
+scale = Vector2(1, 1)
+zoom = Vector2(4, 4)
+limit_bottom = 50
